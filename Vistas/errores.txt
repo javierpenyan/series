@@ -1,0 +1,6 @@
+En vidta_plataforma_completa me da error
+Llamo a get_series_de_plataformas de modelo_plataformas($id), donde me tiene que sacar todas las series de la plataforma.
+uso tambien modelo_plataformas 
+Se produce cuando al me sale la informacion de cada plataforma y pulso sobre la imagen de cada una
+
+tambien me da fallo en el registro

@@ -1,0 +1,466 @@
+
+
+footer#colores{
+    background-color: rgb(12, 6, 49);
+    color: white;
+}
+
+/* evitamos el scroll horizontal */
+body{
+  overflow-x: hidden;
+}
+
+#ad{
+  /* background-color: rgb(231, 231, 231); */
+  background-color: rgb(161, 161, 161);
+}
+
+/* *{
+  width: 100%;
+  margin: 0;
+} */
+
+/* control del logo */
+
+#logo{
+  width: 50px;
+}
+
+#centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+/* estilos de la tabla */
+
+table{
+    /* A la tabla de la clasificación le voy a dar formato de la siguiente manera, usando las propiedades pseudoclase vistas */
+    margin:auto;
+    border-collapse:collapse
+}
+
+table td,th{
+    padding: 0.5em;
+}
+
+tr th{
+    background-color: rgb(171, 233, 225);
+    color: rgb(0, 0, 0);
+}
+
+table tr:first-child{
+    background-color: rgb(207, 209, 72);
+    color: #f00b0b;
+}
+
+
+tr:nth-child(2n){
+    background-color: rgb(194, 205, 223);
+}
+
+tr:nth-child(2n+1){
+    background-color: rgb(223, 213, 157);
+}
+
+#controlw{
+    width: 80%;
+}
+
+/* #cc{
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+} */
+
+/* #cc h2, #cc h3{
+  background-color: #02034d;
+  opacity: 80%;
+  width: 100%;
+  margin-top: 0px;
+} */
+
+/* #ancho{
+    width: 80%;
+} */
+
+/* estilos imagen */
+
+#recoger img{
+  max-width: 90%;
+  min-width: 90%;
+  max-height: 90%;
+  min-height: 90%;
+}
+
+/* color de la pagina de inicio */
+
+#colorAdmin{
+
+  background-color:#000000;
+  color=white;
+}
+
+#colorAdmin h2{
+  color: white;
+}
+
+/* estilos de la caja de comentarios del index */
+
+#caja{
+  background-color: #434704;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 80%;
+  width: 100%;
+  margin-top: 0px;
+  border-radius: 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* input[type=submit]{
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    min-width: 350px;
+  } */
+
+/* input[type=submit]:hover {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    min-width: 350px;
+  } */
+
+/* estilos textarea */
+
+  input, textarea {
+    max-width: 100%;
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+input:focus{
+    /* Asi le doy una mayor interacción y hago que sea mas amigable el formulario */
+    background-color: #d5dadf;
+    color: #000000;
+}
+
+/* estilos formulario */
+
+form:focus-within{
+	background: #f7f9fb
+}
+
+form{
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    text-align: justify;
+    margin-top:40px;
+    margin-bottom: 40px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 3%;
+    padding-left: 8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+form input{
+    margin: 7px, 7px;
+    width: 300px;
+}
+
+input[type=submit]{
+    background-color: #3042a9;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    min-width: 350px;
+    margin-right: 10px;
+  }
+
+
+#imagen{
+    max-width: 100px;
+}
+
+  /* input[type=submit]:hover {
+    background-color: #04AA6D;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 
+    min-width: 350px;
+  } */
+
+  input, textarea {
+    max-width: 100%;
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+input:focus{
+    /* Asi le doy una mayor interacción y hago que sea mas amigable el formulario */
+    background-color: #d5dadf;
+    color: #000000;
+}
+
+
+form:focus-within{
+	background: #f7f9fb
+}
+
+/* controlamos el blog */
+
+#principal_blog{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 100px;
+  
+  }
+
+  #principal_blog h2{
+    margin-top: 50px;
+  }
+
+a{
+    text-decoration: none;
+  }
+
+
+#seccionblog >div{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+
+#blogtext{
+    width: 50%;
+    height: 450px;
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 100px;
+  
+  }
+  
+  #blogtext h3{
+    margin-top: 150px;
+    color: rgb(139, 201, 226);
+    font-style: bold;
+  
+  }
+  
+  #blogtext p{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-style: justify;
+    color: white;
+  
+  
+  }
+
+
+  #imblog2{
+    background: url(../imagenes/bl2.png);
+    width: 50%;
+    height: 450px;
+    background-size: cover;
+    margin-bottom: 100px;
+    background-position: center;
+  }
+  
+  #imblog3{
+    background: url(../imagenes/bl3.png);
+    width: 50%;
+    height: 450px;
+    background-size: cover;
+    margin-bottom: 100px;
+    background-position: center;
+  }
+  
+  #imblog4{
+    background: url(../imagenes/bl4.png);
+    width: 50%;
+    height: 450px;
+    background-size: cover;
+    margin-bottom: 100px;
+    background-position: center;
+  }
+  
+  #imblog5{
+    background: url(../imagenes/bl5.png);
+    width: 50%;
+    height: 450px;
+    background-size: cover;
+    margin-bottom: 100px;
+    background-position: center;
+  }
+
+  #imblog1{
+    background: url(../imagenes/bl1.png);
+    width: 50%;
+    height: 450px;
+    background-size: cover;
+    margin-bottom: 100px;
+    background-position: center;
+  
+  }
+
+  #error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+
+  }
+  #error img{
+    width: 800px;
+    height: 800px;
+  }
+
+  #ancho{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* #boton1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#boton1 button{
+    width: 45%;
+} */
+
+/* controlamos el responsive que no lo controla bootstrap */
+
+@media screen and (max-width:980px){
+#blogtext{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  #imblog1, #imblog2, #imblog3, #imblog4, #imblog5{
+    display: none;
+  }
+
+
+  #principal_blog{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  /* Aqui aplico los estilos correspondientes a los h2 de las diferentes paginas cuando se hacen responsivas */
+  
+   #principal h1,  #principalBlog h2, #principal_blog h2, #principal_tienda h2{
+     width: 100%;
+     height: 10%;
+     background-color: white;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     opacity: 80%;
+     margin-bottom: 0px;
+   }
+  
+   /* Seccion principal del blog */
+  
+   #principalBlog{
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     width: 100%;
+     height: 300px;
+   }
+
+   #seccionblog p{
+     display: none;
+   }
+
+   /* #seccionblog div{
+     height: 80px;
+   } */
+
+   /* body{
+    overflow-x: visible;
+  } */
+
+  table{
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  }
+
+  @media screen and (max-width:600px){
+       body{
+    overflow-x: visible;
+  }
+  }
